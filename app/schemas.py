@@ -1,5 +1,5 @@
 from enum import Enum
-from pydantic
+from pydantic   
 
 class GenreURLChoices(Enum):
     ROCK = "rock"

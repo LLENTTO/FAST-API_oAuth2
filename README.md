@@ -20,8 +20,8 @@
 # IMPORTANT PREQS
 
 - Installed Python
-- Installed Docker
-
+- Installed Docker (Docker desktop is optional)
+- Installed Mongo (MongoDB compass is optional)
 
 ### <i>To run the software you should install all the required documents located in [requirements](./requirements.txt) file </i>
 

@@ -27,7 +27,7 @@
 
 ### <i>Installation guide:</i>
     - Check for versions: python/docker --version
-    - git clone - [Repository URL]
+    - git clone https://github.com/LLENTTO/FAST-API_oAuth2
     - CD to the installed folder
 
 ### Running with docker:
@@ -39,7 +39,7 @@
 <i>If using windows command prompt</i> - ```myenv\Scripts\activate```
 -   ``` pip install -r requirements.txt ```
 -   ```cd app```
--   ```uvicorn main:app --reload```
+-   ```uvicorn server:app --reload```
 
 <hr />
 

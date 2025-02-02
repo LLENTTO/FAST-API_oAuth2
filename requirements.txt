@@ -1,4 +1,7 @@
 fastapi
-uvicorn
-dotenv
+uvicorn[standard]
+python-dotenv
+motor
 pydantic
+Authlib
+PyJWT

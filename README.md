@@ -50,6 +50,14 @@
 - Choose any plan and create the server
 - Add the URI to [.env](./.env) file
 
+### OR
+
+- Run MongoDB server on local machine
+
+### OR
+
+- Simply run ```docker-compose up```
+
 <hr />
 
 Creaed by GitHub LLENTTO

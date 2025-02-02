@@ -60,4 +60,4 @@
 
 <hr />
 
-Creaed by GitHub LLENTTO
+Created by GitHub LLENTTO

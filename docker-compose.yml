@@ -1,4 +1,4 @@
-version: '3.12.8'
+version: "3.9"
 
 services:
   web:
@@ -6,10 +6,12 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - MONGO_URI=mongodb://localhost:27017
-      - GitHub_client-secret=deae0508a68030fb5b81dc6050056fa1606f1bdb
-      - GitHub_client-id=Ov23liuMLsSZ9Sk0p1p0
-      - secret-key=mypass1337
+      - MONGO_URI=mongodb://mongo:27017/mydatabase
+      - GOOGLE_CLIENT_ID=your-google-client-id
+      - GOOGLE_CLIENT_SECRET=your-google-client-secret
+      - GITHUB_CLIENT_ID=your-github-client-id
+      - GITHUB_CLIENT_SECRET=your-github-client-secret
+      - SECRET_KEY=your-secret-key
     depends_on:
       - mongo
 
@@ -19,7 +21,7 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      -mongo_data:/data/db
+      - mongo_data:/data/db
 
 volumes:
   mongo_data:

@@ -9,8 +9,8 @@ from dotenv import load_dotenv # type: ignore
 load_dotenv()
 
 # settings api endpoints for database
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
-SECRET_KEY = os.getenv("secret-key", "password1337")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017/mydatabase")
+SECRET_KEY = os.getenv("secret-key", "mypass1337")
 
 ALGORITHM="HS256" #idk read about it
 ACCESS_TOKEN_EXPIRE=120 #its 120 minutes, or 2 hours. configure if you want to change its behavior

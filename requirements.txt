@@ -3,5 +3,7 @@ uvicorn[standard]
 python-dotenv
 motor
 pydantic
+email-validator
 Authlib
 PyJWT
+httpx
